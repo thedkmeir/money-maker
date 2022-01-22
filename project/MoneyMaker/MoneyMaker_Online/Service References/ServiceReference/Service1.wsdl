@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:49988/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:49988/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:49988/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_add_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_add" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_addResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_selectsingle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_selectsingle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_selectsingle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_selectsingleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_selectspecific_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_selectspecific" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_selectspecific_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_selectspecificResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_selectbyuser_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_selectbyuser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_selectbyuser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_selectbyuserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_update_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_update" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_updateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_delete" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_getall_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_getall" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_getall_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_getallResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_get_money_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_get_money" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_get_money_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_get_moneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_get_monthly_money_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_get_monthly_money" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_get_monthly_money_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_get_monthly_moneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_get_monthly_history_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_get_monthly_history" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_get_monthly_history_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_get_monthly_historyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_clean_user_data_InputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_clean_user_data" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Income_History_clean_user_data_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Income_History_clean_user_dataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_add_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_add" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_addResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_delete" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_change_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_change" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_change_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_changeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_getsingle_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_getsingle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_getsingle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_getsingleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_getall_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_getall" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_getall_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_getallResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_repeat_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_repeat" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_repeat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_repeatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_Getmoutcome_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_Getmoutcome" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_Getmoutcome_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_GetmoutcomeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_clean_user_data_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_clean_user_data" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_clean_user_data_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_clean_user_dataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_get_to_add_price_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_get_to_add_price" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_get_to_add_price_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_get_to_add_priceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_getaverage_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_getaverage" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Expenses_getaverage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Expenses_getaverageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_Add_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_Add" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_Add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_AddResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_getall_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_getall" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_getall_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_getallResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_getspecific_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_getspecific" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_getspecific_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_getspecificResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_Repeat_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_Repeat" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_Repeat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_RepeatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_Getmincome_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_Getmincome" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_Getmincome_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_GetmincomeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_change_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_change" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_change_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_changeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_delete" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_clean_user_data_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_clean_user_data" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_clean_user_data_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_clean_user_dataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_get_to_add_price_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_get_to_add_price" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_get_to_add_price_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_get_to_add_priceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_getaverage_InputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_getaverage" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Monthly_Income_getaverage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Monthly_Income_getaverageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_AddProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_AddProduct" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_AddProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_AddProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_selectbyuser_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_selectbyuser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_selectbyuser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_selectbyuserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_selectbypro_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_selectbypro" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_selectbypro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_selectbyproResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_Getproducts_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_Getproducts" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_Getproducts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_GetproductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_SetProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_SetProduct" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_SetProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_SetProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_delete" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_get_money_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_get_money" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_get_money_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_get_moneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_get_monthly_money_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_get_monthly_money" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_get_monthly_money_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_get_monthly_moneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_get_monthly_history_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_get_monthly_history" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_get_monthly_history_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_get_monthly_historyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_clean_user_data_InputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_clean_user_data" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Outcome_History_clean_user_data_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Outcome_History_clean_user_dataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_add_InputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_add" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_addResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_select_InputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_select" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_select_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_selectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_getall_InputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_getall" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_getall_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_getallResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_delete" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Type_Group_Suggestion_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Type_Group_Suggestion_deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_add_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_add" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_addResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_add_Group_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_add_Group" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_add_Group_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_add_GroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettype_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettype" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_getall_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_getall" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_getall_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_getallResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_getid_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_getid" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_getid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_getidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettypestring_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettypestring" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettypestring_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettypestringResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_checkduplicate_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_checkduplicate" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_checkduplicate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_checkduplicateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_checkduplicategroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_checkduplicategroups" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_checkduplicategroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_checkduplicategroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_all_groups_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_all_groups" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_all_groups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_all_groupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_all_types_in_group_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_all_types_in_group" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_all_types_in_group_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_all_types_in_groupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_group_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_group" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_group_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_groupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettypegroupstring_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettypegroupstring" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettypegroupstring_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettypegroupstringResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettypeItemstring_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettypeItemstring" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_gettypeItemstring_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_gettypeItemstringResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_group_table_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_group_table" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_group_table_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_group_tableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_specific_types_InputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_specific_types" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Types_get_specific_types_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Types_get_specific_typesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_Register" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_Login" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getall_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getall" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getall_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getallResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getpassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getpassword" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getpassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getpasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_get_specific_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_get_specific" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_get_specific_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_get_specificResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_Change_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_Change" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_Change_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_ChangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_addmoney_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_addmoney" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_addmoney_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_addmoneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getmoney_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getmoney" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getmoney_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getmoneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_get_user_reg_date_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_get_user_reg_date" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_get_user_reg_date_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_get_user_reg_dateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_is_admin_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_is_admin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_is_admin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_is_adminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_make_admin_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_make_admin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_make_admin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_make_adminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_nomake_admin_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_nomake_admin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_nomake_admin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_nomake_adminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_clean_user_data_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_clean_user_data" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_clean_user_data_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_clean_user_dataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getallincome_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getallincome" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getallincome_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getallincomeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getalloutcome_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getalloutcome" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_getalloutcome_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_getalloutcomeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_check_email_duplicate_InputMessage">
+    <wsdl:part name="parameters" element="tns:Users_check_email_duplicate" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Users_check_email_duplicate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Users_check_email_duplicateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getaddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:getaddress" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getaddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getaddressResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_add" message="tns:IService1_Income_History_add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_addResponse" message="tns:IService1_Income_History_add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_selectsingle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_selectsingle" message="tns:IService1_Income_History_selectsingle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_selectsingleResponse" message="tns:IService1_Income_History_selectsingle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_selectspecific">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_selectspecific" message="tns:IService1_Income_History_selectspecific_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_selectspecificResponse" message="tns:IService1_Income_History_selectspecific_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_selectbyuser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_selectbyuser" message="tns:IService1_Income_History_selectbyuser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_selectbyuserResponse" message="tns:IService1_Income_History_selectbyuser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_update">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_update" message="tns:IService1_Income_History_update_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_updateResponse" message="tns:IService1_Income_History_update_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_delete" message="tns:IService1_Income_History_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_deleteResponse" message="tns:IService1_Income_History_delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_getall">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_getall" message="tns:IService1_Income_History_getall_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_getallResponse" message="tns:IService1_Income_History_getall_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_get_money">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_get_money" message="tns:IService1_Income_History_get_money_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_get_moneyResponse" message="tns:IService1_Income_History_get_money_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_get_monthly_money">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_get_monthly_money" message="tns:IService1_Income_History_get_monthly_money_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_get_monthly_moneyResponse" message="tns:IService1_Income_History_get_monthly_money_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_get_monthly_history">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_get_monthly_history" message="tns:IService1_Income_History_get_monthly_history_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_get_monthly_historyResponse" message="tns:IService1_Income_History_get_monthly_history_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_clean_user_data">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Income_History_clean_user_data" message="tns:IService1_Income_History_clean_user_data_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Income_History_clean_user_dataResponse" message="tns:IService1_Income_History_clean_user_data_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_add" message="tns:IService1_Monthly_Expenses_add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_addResponse" message="tns:IService1_Monthly_Expenses_add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_delete" message="tns:IService1_Monthly_Expenses_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_deleteResponse" message="tns:IService1_Monthly_Expenses_delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_change">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_change" message="tns:IService1_Monthly_Expenses_change_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_changeResponse" message="tns:IService1_Monthly_Expenses_change_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_getsingle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_getsingle" message="tns:IService1_Monthly_Expenses_getsingle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_getsingleResponse" message="tns:IService1_Monthly_Expenses_getsingle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_getall">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_getall" message="tns:IService1_Monthly_Expenses_getall_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_getallResponse" message="tns:IService1_Monthly_Expenses_getall_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_repeat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_repeat" message="tns:IService1_Monthly_Expenses_repeat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_repeatResponse" message="tns:IService1_Monthly_Expenses_repeat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_Getmoutcome">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_Getmoutcome" message="tns:IService1_Monthly_Expenses_Getmoutcome_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_GetmoutcomeResponse" message="tns:IService1_Monthly_Expenses_Getmoutcome_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_clean_user_data">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_clean_user_data" message="tns:IService1_Monthly_Expenses_clean_user_data_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_clean_user_dataResponse" message="tns:IService1_Monthly_Expenses_clean_user_data_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_get_to_add_price">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_get_to_add_price" message="tns:IService1_Monthly_Expenses_get_to_add_price_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_get_to_add_priceResponse" message="tns:IService1_Monthly_Expenses_get_to_add_price_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_getaverage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_getaverage" message="tns:IService1_Monthly_Expenses_getaverage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Expenses_getaverageResponse" message="tns:IService1_Monthly_Expenses_getaverage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_Add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_Add" message="tns:IService1_Monthly_Income_Add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_AddResponse" message="tns:IService1_Monthly_Income_Add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_getall">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_getall" message="tns:IService1_Monthly_Income_getall_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_getallResponse" message="tns:IService1_Monthly_Income_getall_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_getspecific">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_getspecific" message="tns:IService1_Monthly_Income_getspecific_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_getspecificResponse" message="tns:IService1_Monthly_Income_getspecific_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_Repeat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_Repeat" message="tns:IService1_Monthly_Income_Repeat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_RepeatResponse" message="tns:IService1_Monthly_Income_Repeat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_Getmincome">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_Getmincome" message="tns:IService1_Monthly_Income_Getmincome_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_GetmincomeResponse" message="tns:IService1_Monthly_Income_Getmincome_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_change">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_change" message="tns:IService1_Monthly_Income_change_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_changeResponse" message="tns:IService1_Monthly_Income_change_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_delete" message="tns:IService1_Monthly_Income_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_deleteResponse" message="tns:IService1_Monthly_Income_delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_clean_user_data">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_clean_user_data" message="tns:IService1_Monthly_Income_clean_user_data_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_clean_user_dataResponse" message="tns:IService1_Monthly_Income_clean_user_data_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_get_to_add_price">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_get_to_add_price" message="tns:IService1_Monthly_Income_get_to_add_price_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_get_to_add_priceResponse" message="tns:IService1_Monthly_Income_get_to_add_price_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_getaverage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Monthly_Income_getaverage" message="tns:IService1_Monthly_Income_getaverage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Monthly_Income_getaverageResponse" message="tns:IService1_Monthly_Income_getaverage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_AddProduct">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_AddProduct" message="tns:IService1_Outcome_History_AddProduct_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_AddProductResponse" message="tns:IService1_Outcome_History_AddProduct_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_selectbyuser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_selectbyuser" message="tns:IService1_Outcome_History_selectbyuser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_selectbyuserResponse" message="tns:IService1_Outcome_History_selectbyuser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_selectbypro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_selectbypro" message="tns:IService1_Outcome_History_selectbypro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_selectbyproResponse" message="tns:IService1_Outcome_History_selectbypro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_Getproducts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_Getproducts" message="tns:IService1_Outcome_History_Getproducts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_GetproductsResponse" message="tns:IService1_Outcome_History_Getproducts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_SetProduct">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_SetProduct" message="tns:IService1_Outcome_History_SetProduct_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_SetProductResponse" message="tns:IService1_Outcome_History_SetProduct_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_delete" message="tns:IService1_Outcome_History_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_deleteResponse" message="tns:IService1_Outcome_History_delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_get_money">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_get_money" message="tns:IService1_Outcome_History_get_money_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_get_moneyResponse" message="tns:IService1_Outcome_History_get_money_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_get_monthly_money">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_get_monthly_money" message="tns:IService1_Outcome_History_get_monthly_money_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_get_monthly_moneyResponse" message="tns:IService1_Outcome_History_get_monthly_money_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_get_monthly_history">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_get_monthly_history" message="tns:IService1_Outcome_History_get_monthly_history_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_get_monthly_historyResponse" message="tns:IService1_Outcome_History_get_monthly_history_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_clean_user_data">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Outcome_History_clean_user_data" message="tns:IService1_Outcome_History_clean_user_data_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Outcome_History_clean_user_dataResponse" message="tns:IService1_Outcome_History_clean_user_data_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_add" message="tns:IService1_Type_Group_Suggestion_add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_addResponse" message="tns:IService1_Type_Group_Suggestion_add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_select">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_select" message="tns:IService1_Type_Group_Suggestion_select_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_selectResponse" message="tns:IService1_Type_Group_Suggestion_select_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_getall">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_getall" message="tns:IService1_Type_Group_Suggestion_getall_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_getallResponse" message="tns:IService1_Type_Group_Suggestion_getall_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_delete" message="tns:IService1_Type_Group_Suggestion_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Type_Group_Suggestion_deleteResponse" message="tns:IService1_Type_Group_Suggestion_delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_add" message="tns:IService1_Types_add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_addResponse" message="tns:IService1_Types_add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_add_Group">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_add_Group" message="tns:IService1_Types_add_Group_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_add_GroupResponse" message="tns:IService1_Types_add_Group_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_gettype" message="tns:IService1_Types_gettype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_gettypeResponse" message="tns:IService1_Types_gettype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_getall">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_getall" message="tns:IService1_Types_getall_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_getallResponse" message="tns:IService1_Types_getall_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_getid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_getid" message="tns:IService1_Types_getid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_getidResponse" message="tns:IService1_Types_getid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettypestring">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_gettypestring" message="tns:IService1_Types_gettypestring_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_gettypestringResponse" message="tns:IService1_Types_gettypestring_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_checkduplicate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_checkduplicate" message="tns:IService1_Types_checkduplicate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_checkduplicateResponse" message="tns:IService1_Types_checkduplicate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_checkduplicategroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_checkduplicategroups" message="tns:IService1_Types_checkduplicategroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_checkduplicategroupsResponse" message="tns:IService1_Types_checkduplicategroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_all_groups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_get_all_groups" message="tns:IService1_Types_get_all_groups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_get_all_groupsResponse" message="tns:IService1_Types_get_all_groups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_all_types_in_group">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_get_all_types_in_group" message="tns:IService1_Types_get_all_types_in_group_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_get_all_types_in_groupResponse" message="tns:IService1_Types_get_all_types_in_group_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_group">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_get_group" message="tns:IService1_Types_get_group_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_get_groupResponse" message="tns:IService1_Types_get_group_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettypegroupstring">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_gettypegroupstring" message="tns:IService1_Types_gettypegroupstring_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_gettypegroupstringResponse" message="tns:IService1_Types_gettypegroupstring_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettypeItemstring">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_gettypeItemstring" message="tns:IService1_Types_gettypeItemstring_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_gettypeItemstringResponse" message="tns:IService1_Types_gettypeItemstring_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_group_table">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_get_group_table" message="tns:IService1_Types_get_group_table_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_get_group_tableResponse" message="tns:IService1_Types_get_group_table_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_specific_types">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Types_get_specific_types" message="tns:IService1_Types_get_specific_types_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Types_get_specific_typesResponse" message="tns:IService1_Types_get_specific_types_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_Register" message="tns:IService1_Users_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_RegisterResponse" message="tns:IService1_Users_Register_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_Login" message="tns:IService1_Users_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_LoginResponse" message="tns:IService1_Users_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_getall">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_getall" message="tns:IService1_Users_getall_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_getallResponse" message="tns:IService1_Users_getall_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_getpassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_getpassword" message="tns:IService1_Users_getpassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_getpasswordResponse" message="tns:IService1_Users_getpassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_get_specific">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_get_specific" message="tns:IService1_Users_get_specific_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_get_specificResponse" message="tns:IService1_Users_get_specific_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_Change">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_Change" message="tns:IService1_Users_Change_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_ChangeResponse" message="tns:IService1_Users_Change_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_addmoney">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_addmoney" message="tns:IService1_Users_addmoney_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_addmoneyResponse" message="tns:IService1_Users_addmoney_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_getmoney">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_getmoney" message="tns:IService1_Users_getmoney_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_getmoneyResponse" message="tns:IService1_Users_getmoney_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_get_user_reg_date">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_get_user_reg_date" message="tns:IService1_Users_get_user_reg_date_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_get_user_reg_dateResponse" message="tns:IService1_Users_get_user_reg_date_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_is_admin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_is_admin" message="tns:IService1_Users_is_admin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_is_adminResponse" message="tns:IService1_Users_is_admin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_make_admin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_make_admin" message="tns:IService1_Users_make_admin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_make_adminResponse" message="tns:IService1_Users_make_admin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_nomake_admin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_nomake_admin" message="tns:IService1_Users_nomake_admin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_nomake_adminResponse" message="tns:IService1_Users_nomake_admin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_clean_user_data">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_clean_user_data" message="tns:IService1_Users_clean_user_data_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_clean_user_dataResponse" message="tns:IService1_Users_clean_user_data_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_getallincome">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_getallincome" message="tns:IService1_Users_getallincome_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_getallincomeResponse" message="tns:IService1_Users_getallincome_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_getalloutcome">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_getalloutcome" message="tns:IService1_Users_getalloutcome_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_getalloutcomeResponse" message="tns:IService1_Users_getalloutcome_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Users_check_email_duplicate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Users_check_email_duplicate" message="tns:IService1_Users_check_email_duplicate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Users_check_email_duplicateResponse" message="tns:IService1_Users_check_email_duplicate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getaddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getaddress" message="tns:IService1_getaddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getaddressResponse" message="tns:IService1_getaddress_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_add">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_selectsingle">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_selectsingle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_selectspecific">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_selectspecific" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_selectbyuser">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_selectbyuser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_update">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_delete">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_getall">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_getall" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_get_money">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_get_money" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_get_monthly_money">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_get_monthly_money" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_get_monthly_history">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_get_monthly_history" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Income_History_clean_user_data">
+      <soap:operation soapAction="http://tempuri.org/IService1/Income_History_clean_user_data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_add">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_delete">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_change">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_change" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_getsingle">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_getsingle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_getall">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_getall" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_repeat">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_repeat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_Getmoutcome">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_Getmoutcome" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_clean_user_data">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_clean_user_data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_get_to_add_price">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_get_to_add_price" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Expenses_getaverage">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Expenses_getaverage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_Add">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_Add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_getall">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_getall" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_getspecific">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_getspecific" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_Repeat">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_Repeat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_Getmincome">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_Getmincome" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_change">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_change" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_delete">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_clean_user_data">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_clean_user_data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_get_to_add_price">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_get_to_add_price" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Monthly_Income_getaverage">
+      <soap:operation soapAction="http://tempuri.org/IService1/Monthly_Income_getaverage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_AddProduct">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_AddProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_selectbyuser">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_selectbyuser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_selectbypro">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_selectbypro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_Getproducts">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_Getproducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_SetProduct">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_SetProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_delete">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_get_money">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_get_money" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_get_monthly_money">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_get_monthly_money" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_get_monthly_history">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_get_monthly_history" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Outcome_History_clean_user_data">
+      <soap:operation soapAction="http://tempuri.org/IService1/Outcome_History_clean_user_data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_add">
+      <soap:operation soapAction="http://tempuri.org/IService1/Type_Group_Suggestion_add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_select">
+      <soap:operation soapAction="http://tempuri.org/IService1/Type_Group_Suggestion_select" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_getall">
+      <soap:operation soapAction="http://tempuri.org/IService1/Type_Group_Suggestion_getall" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Type_Group_Suggestion_delete">
+      <soap:operation soapAction="http://tempuri.org/IService1/Type_Group_Suggestion_delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_add">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_add_Group">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_add_Group" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettype">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_gettype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_getall">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_getall" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_getid">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_getid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettypestring">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_gettypestring" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_checkduplicate">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_checkduplicate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_checkduplicategroups">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_checkduplicategroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_all_groups">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_get_all_groups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_all_types_in_group">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_get_all_types_in_group" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_group">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_get_group" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettypegroupstring">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_gettypegroupstring" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_gettypeItemstring">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_gettypeItemstring" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_group_table">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_get_group_table" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Types_get_specific_types">
+      <soap:operation soapAction="http://tempuri.org/IService1/Types_get_specific_types" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_Register">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_Login">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_getall">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_getall" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_getpassword">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_getpassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_get_specific">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_get_specific" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_Change">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_Change" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_addmoney">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_addmoney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_getmoney">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_getmoney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_get_user_reg_date">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_get_user_reg_date" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_is_admin">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_is_admin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_make_admin">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_make_admin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_nomake_admin">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_nomake_admin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_clean_user_data">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_clean_user_data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_getallincome">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_getallincome" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_getalloutcome">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_getalloutcome" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Users_check_email_duplicate">
+      <soap:operation soapAction="http://tempuri.org/IService1/Users_check_email_duplicate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getaddress">
+      <soap:operation soapAction="http://tempuri.org/IService1/getaddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:49988/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

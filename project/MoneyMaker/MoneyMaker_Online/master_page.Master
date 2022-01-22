@@ -1,0 +1,317 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_page.master.cs" Inherits="MoneyMaker_Online.master_page" EnableViewState="True" %>
+
+<!DOCTYPE html>
+
+<html runat="server">
+<head runat="server">
+
+    <style>
+        #h1template {
+            font: 500 0.49em/1 'Raleway', sans-serif;
+            color: rgba(0, 0, 0, 5);
+            /*text-align: center;*/
+            text-transform: uppercase;
+            letter-spacing: .5em;
+            /*position: absolute;*/
+            /*top: 25%;*/
+            width: 100%;
+        }
+
+        .spany,
+        .spany:after {
+            font-weight: 900;
+            /*color: #efedce;*/
+            white-space: nowrap;
+            display: inline-block;
+            position: relative;
+            letter-spacing: .1em;
+        }
+
+        .spany {
+            font-size: 4em;
+            z-index: 100;
+            text-shadow: .04em .04em 0 #9cb8b3;
+        }
+
+            .spany:after {
+                content: attr(data-shadow-text);
+                color: rgba(0, 0, 0, .35);
+                text-shadow: none;
+                position: absolute;
+                left: .0875em;
+                top: .0875em;
+                z-index: -1;
+                -webkit-mask-image:;
+            }
+    </style>
+
+    <!-- start: Meta -->
+    <meta charset="utf-8">
+    <title>Easy Money</title>
+    <meta name="description" content="GotYa Free Bootstrap Theme" />
+    <meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
+    <meta name="author" content="Łukasz Holeczek from creativeLabs" />
+    <!-- end: Meta -->
+
+    <!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- end: Mobile Specific -->
+
+    <!-- start: Facebook Open Graph -->
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <!-- end: Facebook Open Graph -->
+
+    <!-- start: CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+    <!-- end: CSS -->
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body style="background-color: darkgreen;" runat="server">
+
+
+    <header runat="server">
+
+        <!--start: Container -->
+        <div class="container" runat="server">
+
+            <!--start: Row -->
+            <div class="row" runat="server">
+
+                <!--start: Logo -->
+                <a href="Home_Page.aspx">
+                    <div class="logo span3">
+
+                        <div class="row" style="text-align: center">
+
+
+                            <h1 style="width: 100%; margin-top: 4px; margin-bottom: 4px;" id="h1template" class="h1r">
+                                <img style="max-width: 57px; margin-top: 1px; text-align: center; position: absolute;" src="img\logos\Finance-512.png" />
+                                <span class="spany" data-shadow-text="E" style="color: #89c236; margin-left: 0px;">E</span>
+                                <span class="spany" data-shadow-text="asy " style="color: #111111; margin-left: 0px;">asy </span>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <span class="spany" data-shadow-text="M" style="color: #89c236; margin-left: 20px;">M</span>
+                                <span class="spany" data-shadow-text="oney " style="color: #111111; margin-left: 0px;">oney</span>
+                            </h1>
+                            <br />
+                        </div>
+                    </div>
+                </a>
+                <!--end: Logo -->
+
+                <!--start: Navigation -->
+                <div class="span12" style="float: right;" runat="server">
+
+                    <div class="navbar navbar-inverse" runat="server">
+                        <div class="navbar-inner">
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                            <div class="nav-collapse collapse" runat="server">
+
+                                <ul class="nav" runat="server">
+                                    <li runat="server"><a href="#" runat="server" id="userintro"></a></li>
+                                    <li class="active" runat="server"><a href="Home_Page.aspx" runat="server">Home</a></li>
+                                    <li id="profile" runat="server"><a href="Profile.aspx" runat="server">Profile</a></li>
+                                    <li class="dropdown" id="dropdown" runat="server">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" runat="server">Actions <b class="caret"></b></a>
+                                        <ul class="dropdown-menu" runat="server">
+                                            <li class="nav-header" runat="server">Income / Outcome / Types / Groups</li>
+                                            <li class="divider" runat="server"></li>
+                                            <li runat="server"><a href="add.aspx" runat="server">Add</a></li>
+                                            <li runat="server"><a href="Search.aspx" runat="server">View/edit/delete</a></li>
+                                            <li runat="server"><a href="add_type.aspx" runat="server">Add Types/Groups</a></li>
+                                            <li class="divider" runat="server"></li>
+                                            <li class="#" runat="server">Information</li>
+                                            <li class="divider" runat="server"></li>
+                                            <li runat="server"><a href="Tables.aspx" runat="server">Statistics</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li><a href="Introduction.aspx">About</a></li>
+                                    <li runat="server"><a id="iii" runat="server" href="Log_in.aspx"></a></li>
+
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end: Navigation -->
+
+            </div>
+            <!--end: Row -->
+
+
+        </div>
+        <!--end: Container-->
+    </header>
+
+    <!--end: Header-->
+
+    <form runat="server">
+        <div id="wrapper">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+
+            <!-- start: Slider -->
+            <div class="slider-wrapper">
+
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+                        <h2>Join Us Now!</h2>
+                        <p style="font-size: 20px;">Register and start using EasyMoney for free! enter your details and start managing your money easily and effectively.</p>
+                        <a href="Register.aspx" class="da-link">Register</a>
+                        <div class="da-img">
+                            <img src="img/parallax-slider/join.png" alt="image04" />
+                        </div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>Know Where<br />
+                            <br />
+                            Your Money goes</h2>
+                        <p style="font-size: 20px;">
+                            <br />
+                            <br />
+                            The Utility keeps track of your purchases and shows you the stuff you spent money on, so youll know how to manage and save your money.
+                        </p>
+                        <a href="Introduction.aspx" class="da-link">About</a>
+                        <div class="da-img">
+                            <img src="img/parallax-slider/where.png" alt="image02" />
+                        </div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>Easy To Use</h2>
+                        <p style="font-size: 20px;">The site is very clear and simple and uses simple english.</p>
+                        <a href="Introduction.aspx" class="da-link">About</a>
+                        <div class="da-img">
+                            <img src="img/parallax-slider/easy.png" alt="image03" />
+                        </div>
+                    </div>
+                    <nav class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </nav>
+                </div>
+
+            </div>
+            <!-- end: Slider -->
+
+            <!-- start: Other Page Info -->
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!-- end: Other Page Info -->
+
+    <!-- start: Footer -->
+    <div id="footer">
+
+        <!-- start: Container -->
+        <div class="container">
+
+            <!-- start: Row -->
+            <div class="row">
+
+                <!-- start: About -->
+                <div class="span3">
+
+                    <h3>About Us</h3>
+                    <p>
+                        this is a one man project and i worked very hard on it if you want to contact me my email is thedkmeir@gmail.com
+                    </p>
+
+                </div>
+                <!-- end: About -->
+
+                <div class="span3">
+
+                    <!-- start: Follow Us -->
+                    <h3>Follow Us!</h3>
+                    <ul class="social-grid">
+                        <li>
+                            <div class="social-item">
+                                <div class="social-info-wrap">
+                                    <div class="social-info">
+                                        <div class="social-info-front social-twitter">
+                                            <a href="http://twitter.com"></a>
+                                        </div>
+                                        <div class="social-info-back social-twitter-hover">
+                                            <a href="http://twitter.com"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="social-item">
+                                <div class="social-info-wrap">
+                                    <div class="social-info">
+                                        <div class="social-info-front social-facebook">
+                                            <a href="http://facebook.com"></a>
+                                        </div>
+                                        <div class="social-info-back social-facebook-hover">
+                                            <a href="http://facebook.com"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- end: Follow Us -->
+
+                </div>
+
+            </div>
+            <!-- end: Row -->
+
+        </div>
+        <!-- end: Container  -->
+
+    </div>
+    <!-- end: Footer -->
+
+    <!-- start: Java Script -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/flexslider.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/jquery.cslider.js"></script>
+    <script src="js/slider.js"></script>
+    <script defer="defer" src="js/custom.js"></script>
+    <!-- end: Java Script -->
+
+
+
+</body>
+</html>

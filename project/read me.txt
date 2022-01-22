@@ -1,0 +1,26 @@
+היי פרד,
+יש סיכוי שבשביל שהפרויקט יעבוד תצטרך להתקין 
+את כל ה
+exe 
+שנמצאים בתיקייה 
+redist
+
+
+לינקים ישרים אם אתה מעדיך להוריד מהמקור:
+
+צריך את שני אלה
+
+https://www.microsoft.com/en-us/download/details.aspx?id=13255
+
+https://www.microsoft.com/en-us/download/details.aspx?id=4438
+
+המסד נתונים נמצא ב
+money maker\project\MoneyMaker\ServerData\bin\Info.accdb
+
+חשבון פועל
+Shufersal@gmail.com
+
+Shufersal123
+
+ממליץ להריץ את הפרויקט על
+google chrome

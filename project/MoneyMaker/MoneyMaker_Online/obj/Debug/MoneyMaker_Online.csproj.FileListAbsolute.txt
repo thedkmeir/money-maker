@@ -1,0 +1,494 @@
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\ApplicationInsights.config
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\csc.exe
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\vbc.exe
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+c:\users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\thedk\onedrive\documents\visual studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\thedk\OneDrive\Documents\Visual Studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\thedk\OneDrive\Documents\Visual Studio 2015\Projects\MoneyMaker_Online\MoneyMaker_Online\bin\MoneyMaker.pdb
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+G:\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+G:\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+G:\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\Dean\Desktop\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\thedk\Desktop\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+E:\Project versions\Project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\thedk\Google Drive\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+E:\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\User\Desktop\project backup 14.2.17\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+E:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+F:\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\Dean\Desktop\project with advenced site\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\Dean\Google Drive\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe.config
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojResolveAssemblyReference.cache
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\Dean\Desktop\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\ApplicationInsights.config
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\csc.exe
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\vbc.exe
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll.config
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker_Online.pdb
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.pdb
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\MoneyMaker.exe.config
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.Web.xml
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.ApplicationInsights.xml
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csprojAssemblyReference.cache
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csproj.CoreCompileInputs.cache
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.csproj.CopyComplete
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.dll
+C:\Users\thedk\Desktop\my final projects\money maker\project\MoneyMaker\MoneyMaker_Online\obj\Debug\MoneyMaker_Online.pdb
